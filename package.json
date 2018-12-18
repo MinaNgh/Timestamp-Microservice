@@ -10,6 +10,9 @@
     "start": "node server.js",
     "test": "test"
   },
+  dependencies: {
+    "express": "^4.16.4"    
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MinaNgh/Timestamp-Microservice.git"
