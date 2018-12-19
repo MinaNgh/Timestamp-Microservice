@@ -6,7 +6,7 @@ app.get("/", (req, res)=>{
 app.use("/", express.static(__dirname+'/public/style.css'));
 app.get("/:time",(req, res)=>{
 	var str = req.params.time;
-	if(str !===""){
+	if(str !==""){
 		res.json({"unix":0,"utc":0});
 	}else	
 		res.json({"unix":10,"utc":10});
